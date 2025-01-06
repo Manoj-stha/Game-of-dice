@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+#main{
+    width: 250px;
+    height: 449px;
+    Top:263px;
+    Left:595px;
+    Gap:36px;
+}
+#reset {
+    font-family: "poppins", serif;
+    font-weight: 600;
+    font-size: 16px;
+    border-radius: 5px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    color: black;
+    cursor: pointer;
+    /* font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol"; */
+    font-size: 16px;
+    font-weight: 600;
+    line-height: normal;
+    min-height: 60px;
+    min-width: 0;
+    padding: 16px 24px;
+    /* transition: all 300ms cubic-bezier(.23, 1, 0.32, 1); */
+    width: 190px;
+    height: 40px;
+  }
+  
+  /* #reset:disabled {
+    pointer-events: none;
+  } */
+  
+  #reset:hover {
+    box-shadow: rgb(248, 246, 246) 0 8px 15px;
+    transform: translateY(-2px);
+  }
+  
+  #reset:active {
+    box-shadow: none;
+    transform: translateY(0);
+  }
+
+  #btn {
+    font-family: "poppins", serif;
+    font-weight: 600;
+    font-size: 16px;
+    border-radius: 5px;
+    appearance: none;
+    background-color: black;
+    border: 2px solid #1A1A1A;
+    border-radius: 5px;
+    box-sizing: border-box;
+    color: white;
+    cursor: pointer;
+    display: inline-block;
+    /* font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol"; */
+    font-size: 16px;
+    font-weight: 600;
+    line-height: normal;
+    margin: 0;
+    min-height: 60px;
+    min-width: 0;
+    outline: none;
+    padding: 16px 24px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    will-change: transform;
+    width: 190px;
+    height: 40px;
+  }
+  
+  #btn:disabled {
+    pointer-events: none;
+  }
+  
+  #btn:hover {
+    box-shadow: rgba(255, 253, 253, 0.25) 0 8px 15px;
+    transform: translateY(-2px);
+  }
+  
+  #btn:active {
+    box-shadow: none;
+    transform: translateY(0);
+  }
+
+  #slide{
+    display: flex;
+    overflow: hidden;
+    width: 250px;
+    position: relative;
+  }
+  /* @keyframes slide {
+    0% {
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(-1500px);
+    }
+  } */
+  .dice-img {
+    width: 100%;
+    height: auto;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+  
+  .dice-img.rolling {
+    animation: rollDice 1s infinite;
+  }
+  
+  @keyframes rollDice {
+    0% {
+      transform: rotateX(0deg) rotateY(0deg);
+    }
+    /* 25% {
+      transform: rotateX(180deg) rotateY(180deg);
+    } */
+    50% {
+      transform: rotateX(0deg) rotateY(180deg);
+    }
+    /* 75% {
+      transform: rotateX(0deg) rotateY(0deg);
+    } */
+    100% {
+      transform: rotateX(180deg) rotateY(180deg);
+    }
+  }
+  
+
+
+
+  

@@ -1,0 +1,73 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+h1{
+    font-family: "Poppins", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+#play {
+    font-family: "poppins", serif;
+    font-weight: 600;
+    font-size: 16px;
+    border-radius: 5px;
+    appearance: none;
+    background-color: #000000;
+    border: 2px solid #1A1A1A;
+    border-radius: 5px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    /* font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol"; */
+    font-size: 16px;
+    font-weight: 600;
+    line-height: normal;
+    margin: 0;
+    min-height: 60px;
+    min-width: 0;
+    outline: none;
+    padding: 16px 24px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    will-change: transform;
+    width: 220px;
+    height: 44px;
+  }
+  
+  #play:disabled {
+    pointer-events: none;
+  }
+  
+  #play:hover {
+    box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+    transform: translateY(-2px);
+  }
+  
+  #play:active {
+    box-shadow: none;
+    transform: translateY(0);
+  }
+
+ /* #text{
+    letter-spacing: 10px;
+    font-family: "Poppins", serif;
+    border-right: 5px solid;
+    width: 100%;
+    /* background-color: green; */
+    /* white-space: nowrap;
+    overflow: hidden;
+    animation: typing 2s steps(9),
+    cursor .4s step-end infinite alternate; */
+    
+ /* }  */
+  /* @keyframes cursor{
+    50% {border-color: transparent;}
+  }
+  @keyframes typing{
+    from {width: 0;} */
+  /* } */
