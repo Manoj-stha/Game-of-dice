@@ -49,7 +49,7 @@ const handleDiceClick = ()=>{
       >
         {isVisible ? 'Hide Rules': 'Show Rules'}</button>
         {isVisible && (
-          <div className='absolute bg-red-200 mt-[10rem] ml-[-15rem] p-4 rounded-lg'>
+          <div className='absolute bg-red-200 mt-[152px] ml-[-15rem] p-4 rounded-lg'>
             <h1 className='text-center text-[24px]'>How to play dice game</h1>
             <ul className='text-sm'>
               <li>Select any number</li>
